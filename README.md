@@ -10,15 +10,21 @@ ajsfhkalshfjhafkla
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 45f99f5... 大染缸
 a
 b
 c
 =======
 a
 >>>>>>> parent of b35a0fd... [add] b
+<<<<<<< HEAD
 =======
 a
 >>>>>>> parent of b35a0fd... [add] b
 =======
 a
 >>>>>>> parent of b35a0fd... [add] b
+=======
+>>>>>>> parent of 45f99f5... 大染缸

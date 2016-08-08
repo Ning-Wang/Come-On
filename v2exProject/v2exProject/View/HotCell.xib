@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="294" id="KGk-i7-Jjw" customClass="HotCell" customModule="v2exProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="294"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="293"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="内容阿斯顿发生大法师的法师大法师打发送到发送到发送到发送到发送到发送到发送到发送sadfasdfadsafsdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaN-3q-ks2">
+                        <rect key="frame" x="100" y="102" width="202" height="173"/>
+                        <color key="backgroundColor" red="0.16434518914473681" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="crK-6K-kkp">
+                        <rect key="frame" x="10" y="10" width="80" height="80"/>
+                        <color key="backgroundColor" red="0.16434518914473678" green="0.31650904605263158" blue="0.34488075657894735" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="crK-6K-kkp" secondAttribute="height" id="4sc-yh-Rem"/>
+                            <constraint firstAttribute="width" constant="80" id="E0z-d5-qEK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbb-XI-QOU">
+                        <rect key="frame" x="33" y="106" width="34" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="260" text="标题阿斯顿发送到发送到发送到发送到发送到发送到发送到发送到发送到发送到" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dt5-zp-Z2N">
+                        <rect key="frame" x="100" y="10" width="202" height="82"/>
+                        <color key="backgroundColor" red="0.31352796052631576" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dt5-zp-Z2N" firstAttribute="leading" secondItem="crK-6K-kkp" secondAttribute="trailing" constant="10" id="1r5-G4-52e"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="dt5-zp-Z2N" secondAttribute="trailing" constant="10" id="4sF-UJ-vvd"/>
+                    <constraint firstItem="eaN-3q-ks2" firstAttribute="top" secondItem="dt5-zp-Z2N" secondAttribute="bottom" constant="10" id="9h2-zP-B3W"/>
+                    <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="Hbb-XI-QOU" secondAttribute="bottom" constant="10" id="BXD-Ql-Cnv"/>
+                    <constraint firstItem="eaN-3q-ks2" firstAttribute="leading" secondItem="dt5-zp-Z2N" secondAttribute="leading" id="F9M-sM-25W"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eaN-3q-ks2" secondAttribute="bottom" constant="10" id="FPO-ec-aea"/>
+                    <constraint firstItem="crK-6K-kkp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Off-dz-437"/>
+                    <constraint firstItem="eaN-3q-ks2" firstAttribute="trailing" secondItem="dt5-zp-Z2N" secondAttribute="trailing" id="ReR-Bq-p7Z"/>
+                    <constraint firstItem="dt5-zp-Z2N" firstAttribute="top" secondItem="crK-6K-kkp" secondAttribute="top" id="Yjf-4G-Dlz"/>
+                    <constraint firstItem="Hbb-XI-QOU" firstAttribute="top" secondItem="crK-6K-kkp" secondAttribute="bottom" constant="16" id="aL4-MB-uuT"/>
+                    <constraint firstItem="Hbb-XI-QOU" firstAttribute="centerX" secondItem="crK-6K-kkp" secondAttribute="centerX" id="gze-iu-igZ"/>
+                    <constraint firstItem="crK-6K-kkp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="lQn-xs-FCo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="AuthorImage" destination="crK-6K-kkp" id="tms-cz-Dc3"/>
+                <outlet property="authorName" destination="H2p-sc-9uM" id="Z9v-3c-8Or"/>
+                <outlet property="topicContent" destination="eaN-3q-ks2" id="Zjt-Q4-sXj"/>
+                <outlet property="topicTitle" destination="dt5-zp-Z2N" id="fXQ-F1-Kq4"/>
+            </connections>
+            <point key="canvasLocation" x="447" y="531"/>
+        </tableViewCell>
+    </objects>
+</document>

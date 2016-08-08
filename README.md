@@ -8,13 +8,9 @@ ajsfhkalshfjhafkla
 一定要双击啊
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 a
 b
 c
-=======
-a
->>>>>>> parent of b35a0fd... [add] b
 =======
 a
 >>>>>>> parent of b35a0fd... [add] b

@@ -9,9 +9,13 @@ ajsfhkalshfjhafkla
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 a
 b
 c
+=======
+a
+>>>>>>> parent of b35a0fd... [add] b
 =======
 a
 >>>>>>> parent of b35a0fd... [add] b

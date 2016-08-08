@@ -7,6 +7,9 @@ kis my aso
 ajsfhkalshfjhafkla
 一定要双击啊
 
+<<<<<<< HEAD
 a
 b
 c
+
+
